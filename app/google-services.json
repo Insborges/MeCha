@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "974939900913",
+    "project_id": "mecha-54459",
+    "storage_bucket": "mecha-54459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974939900913:android:db360363f75beb66d79250",
+        "android_client_info": {
+          "package_name": "com.example.mecha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcmVSBWttJR_k6OuV9lMVSZ9e2CLX03I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974939900913:android:be3a451928354894d79250",
+        "android_client_info": {
+          "package_name": "com.example.mecha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcmVSBWttJR_k6OuV9lMVSZ9e2CLX03I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

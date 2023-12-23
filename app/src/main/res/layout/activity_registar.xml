@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:background="@color/white"
+    tools:context="com.example.mecha.Activitys.RegistarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:background="@drawable/blue_bgsignup">
+
+        </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingRight="@dimen/_30sdp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            app:hintTextColor="@color/primary"
+            app:startIconDrawable="@drawable/ic_account"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:startIconTint="@color/primary">
+
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/transparentColor"
+                android:drawableStart="@drawable/ic_account"
+                android:drawableTint="@color/primary"
+                android:hint="Nome"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/primary"
+                android:textColorHint="@color/primary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            app:hintTextColor="@color/primary"
+            app:startIconDrawable="@drawable/ic_email"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:startIconTint="@color/primary">
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/transparentColor"
+                android:drawableStart="@drawable/ic_email"
+                android:drawableTint="@color/primary"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/primary"
+                android:textColorHint="@color/primary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            app:endIconTint="@color/primary"
+            app:hintTextColor="@color/primary"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/primary"
+            app:startIconDrawable="@drawable/ic_lock"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:startIconTint="@color/primary">
+
+            <EditText
+                android:id="@+id/inputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/transparentColor"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableTint="@color/primary"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textSize="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/primary"
+                android:textColorHint="@color/primary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            app:endIconTint="@color/primary"
+            app:hintTextColor="@color/primary"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/primary"
+            app:startIconDrawable="@drawable/ic_lock"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:startIconTint="@color/primary">
+
+            <EditText
+                android:id="@+id/inputConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="@color/transparentColor"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableTint="@color/primary"
+                android:hint="Confirmar senha"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textSize="@dimen/_9sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/primary"
+                android:textColorHint="@color/primary" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:animateLayoutChanges="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonRegistar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:text="Registar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/_8sdp" />
+
+            <ProgressBar
+                android:id="@+id/processBar"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="Já tens conta? Login"
+            android:textColor="@color/secondary"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

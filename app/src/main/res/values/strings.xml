@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MeCha</string>
+    <string name="bem_vindo">Bem-Vindo</string>
+    <string name="faz_o_login_para_prosseguir">Faça login para prosseguir</string>
+    <string name="email">Email</string>
+    <string name="palavra_passe">Palavra Passe</string>
+    <string name="login">Login</string>
+    <string name="criar_uma_nova_conta">Criar nova conta</string>
+    <string name="adiciona_foto">Adicione Foto</string>
+    <string name="nome">Nome</string>
+    <string name="confirmar_palavra_passe">Confirmar Palavra Passe</string>
+    <string name="registar">Registar</string>
+    <string name="seleciona_o_utilizador">Seleciona o utilizador</string>
+    <string name="escreve_uma_mensagem">Escreva uma mensagem</string>
+    <string name="online">Online</string>
+    <string name="preenche_o_email_para_mudar_a_palavra_pass">Preenche o email para alterar a palavra-pass</string>
+    <string name="n_o_sabes_a_tua_palavra_passe">Esqueçeu-se da palavra-passe?</string>
+    <string name="preenche_o_email_para_mudar_a_palavra_passe">Preencha o email para alterar a palavra-passe</string>
+    <string name="mudar">Alterar</string>
+    <string name="eliminar_conta">Eliminar Conta</string>
+    <string name="detalhes_da_conta">Detalhes da Conta</string>
+    <string name="digite_a_nova_palavra_passe">Digite a nova palavra-passe</string>
+    <string name="preenche_o_espa_o_para_mudar_a_palavra_passe">Preencha o espaço para mudar a palavra-passe</string>
+    <string name="nome_utilizador">Nome Utilizador</string>
+    <string name="title_activity_enviar_email">EnviarEmail</string>
+    <string name="digite_o_email_para_quem_quer_mandar">Digite o email para quem quer mandar</string>
+    <string name="preencha_o_espa_o_para_enviar_o_email">Preencha o espaço para enviar o email</string>
+    <string name="enviar_email">Enviar Email</string>
+    <string name="preenche_todos_os_espa_os_para_enviar_email">Preenche todos os espaços para enviar email</string>
+    <string name="mudar_palavra_passe">Mudar Palavra-Passe</string>
+    <string name="preenche_o_espa_o_para_mudar_a_passe">Preenche o espaço para mudar a passe</string>
+    <string name="preenche_este_espa_o_para_ser_enviado_um_email">Preencha este espaço para ser enviado um email</string>
+    <string name="enviar">enviar</string>
+    <string name="email_utilizador">Email Utilizador</string>
+    <string name="concluir">Concluir</string>
+    <string name="formul_rio">Formulário</string>
+</resources>

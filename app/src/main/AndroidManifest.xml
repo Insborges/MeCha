@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logotipo_foreground"
+        android:label="MeCha"
+        android:roundIcon="@mipmap/ic_logotipo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MeCha">
+        <activity
+            android:name=".Activitys.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.PerfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.EsquecerPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.ChatActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activitys.UsersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activitys.RegistarActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activitys.LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activitys.MainActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".Firebase.ServicoMensagem"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
